@@ -6,18 +6,18 @@
   - .git(파일) : 변경사항을 기록해 둔 폴더
   - git은 코드를 관리해준다
 
-    ![alt text](image.png)
+    ![alt text](assets/image.png)
     
 - 분산
   - 중앙 집중식 : 버전은 중앙 서버에 저장되고 중앙 서버에서 파일을 가져와 다시 중앙에 업로드
   
-    ![alt text](image-1.png)
+    ![alt text](assets/image-1.png)
   
     - 단점 : 회사에 불이 났을 때 회사 서버(중앙 집중)의 버전은 다 삭제된다. 
 
   - 분산식 : 버전을 여러 개의 복제된 저장소에 저장 및 관리
   
-    ![alt text](image-2.png)
+    ![alt text](assets/image-2.png)
   
   - 분산 구조에서의 장점
     - 중앙 서버에 의존하지 않고도 동시에 다양한 작업을 수행할 수 있음
@@ -32,7 +32,7 @@
     - 이전 버전과의 변경 사항 비교
 
 ## git의 영역
-![alt text](image-3.png)
+![alt text](assets/image-3.png)
 - Working Directory : 실제 작업 중인 파일들이 위치하는 영역
 
 - Staging Area : Working Directory에서 변경된 파일 중, 다음 버전에 포함시킬 파일들을 선택적으로 추가하거나 제외할 수 있는 중간 준비 영역
@@ -59,15 +59,28 @@
 ### git status
 - git의 상태확인
 
-  ![alt text](image-4.png)
+  ![alt text](assets/image-4.png)
 
 ### 계정 등록
-  ![alt text](image-6.png)
+  ![alt text](assets/image-6.png)
 
 ### 계정 수정
-  ![alt text](image-7.png)
-  
-  ![alt text](image-9.png)
+  ![alt text](assets/image-7.png)
+
+  ![alt text](assets/image-9.png)
 
 ### git 기록 보기
-  ![alt text](image-8.png)
+  ![alt text](assets/image-8.png)
+
+
+## 로컬 & 원격 저장소
+### 원격 저장소에 저장
+
+  ![alt text](assets/image-10.png)
+
+  - https://github.com/sojaeheon/TIL.git 이 주소를 origin이라고 부른다.
+  - 별칭을 사용해 로컬 저장소 한 개에 여러 원격 저장소를 추가 할 수 있음
+
+  - git push -u origin master : 원격 저장소에 저장
+    ![alt text](assets/image-11.png)
+    - -u : git push만 써도 git push origin master로 저장됨

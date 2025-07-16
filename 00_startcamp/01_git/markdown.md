@@ -35,7 +35,7 @@ print('hello')
 라는 함수는...
 
 # 이미지
-![alt text](/assets/image.png)
+![alt text](/assets/img.png)
 - 반드시, 해당 경로에 있는 이미지도 경로까지 유지한 상태로 공유하여야 한다.
 
 |제목|내용|
