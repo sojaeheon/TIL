@@ -69,8 +69,15 @@
 
   ![alt text](assets/image-9.png)
 
-### git 기록 보기
+### git config --global -l
+- git global 설정 정보 보기
+
+### git log
+- commit history 보기
+- git log --oneline : commit 목록 한줄로 보기
   ![alt text](assets/image-8.png)
+
+
 
 
 ## 로컬 & 원격 저장소
