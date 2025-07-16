@@ -46,6 +46,10 @@
 => git의 버전 관리를 시작할 디렉토리에서 진행
 ### git add
 - 변경사항이 있는 파일을 staging area에 추가
+### git restore --staged `file`
+- 커밋한 파일 되돌리기
+### git rm --cached `file`
+- staging area 파일에서 빼기
 ### git commit
 - staging area에 있는 파일들을 저장소에 기록
 => 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
@@ -54,6 +58,7 @@
 
 ### git status
 - git의 상태확인
+
   ![alt text](image-4.png)
 
 ### 계정 등록
@@ -61,6 +66,8 @@
 
 ### 계정 수정
   ![alt text](image-7.png)
+  
+  ![alt text](image-9.png)
 
 ### git 기록 보기
   ![alt text](image-8.png)
