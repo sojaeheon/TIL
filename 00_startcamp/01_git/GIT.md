@@ -84,3 +84,9 @@
   - git push -u origin master : 원격 저장소에 저장
     ![alt text](assets/image-11.png)
     - -u : git push만 써도 git push origin master로 저장됨
+
+### 원격 저장소에 있는 git 폴더 옮기기
+
+  ![alt text](assets/gitclone.png)
+
+  - git clone https://github.com/sojaeheon/TIL.git
