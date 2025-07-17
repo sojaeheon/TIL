@@ -1,4 +1,4 @@
-1. git condig 초기화
+1. git config 초기화
   - `$ git config --global 설정` 삭제
   - `$ code ~/.gitconfig`를 실행
   - 해당 설정에 작성된 username과 email 모두 지우기
