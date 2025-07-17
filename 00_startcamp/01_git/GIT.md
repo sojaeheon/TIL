@@ -98,4 +98,6 @@
 
   - git clone https://github.com/sojaeheon/TIL.git
 
-  
+### 서브 모듈
+- 깃으로 관리하고 있는 폴더 안에 새로운 깃을 만드는 것
+- 서브 모듈 안에 있는 파일의 내용이 확인이 안될 수 있다
