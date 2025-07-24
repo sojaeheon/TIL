@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .outer-box {
+      width : 400px;
+      height: 200px;
+      border: 2px solid black;
+      color: red;
+      text-align: center;
+    }
+
+		/* 추가 css 코드 작성 1 */
+		
+    
+    .inner-box {
+      width : 200px;
+      height: 100px;
+			/* 추가 css 코드 작성 2 */
+			border: inherit;  /* 부모의 border 값을 상속받음 */
+      color: initial;  /* 브라우저 기본 텍스트 색상으로 초기화 (보통 black) */
+      text-align: initial;  /* 브라우저 기본 정렬 (왼쪽 정렬)로 초기화 */
+    }
+
+  </style>
+</head>
+<body>
+  <div class="outer-box">
+    <div>
+      <span>첫 번째</span>
+    </div>
+    <div class="inner-box">
+      <span>두 번째</span>
+    </div>
+  </div>
+</body>
+</html>
