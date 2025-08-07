@@ -26,31 +26,50 @@ for tc in range(1, T + 1):
     # 차량 i 의 무게 wi
     wi = [int(input()) for _ in range(m)]
 
+    # 기다리는 차량을 저장할 큐(먼저온 차량을 먼저 주차시키기 위해 큐로 구현)
     waiting_car = deque()
+
+    # 남아있는 주차 공간 번호를 저장할 힙 변수
     parking_remain = [i for i in range(n)]
+
+    # 주차중인 차랑
     parking = set()
 
+    # 결과를 저장할 변수
     result = 0
-    
 
+    # 현재 들어올 차량 받기
     for _ in range(2*m):
         car = int(input())
 
+        # 들어오는 차량일 경우
         if car>0:
+            # 주차할 공간이 없다면
             if len(parking) == n:
+                # 기다리는 차량에 저장
                 waiting_car.append(car)
+            # 주차할 수 있는 공간이 있다면
             else:
-                parking.add((heapq.heappop(parking_remain),car))
+                parking.add((heapq.heappop(parking_remain),     car))
+
+        # 나가는 차량일 경우
         else:
+            # 주차중인 차량 집합에서 하나씩 뽑으며 현재차량과 같으면 출차시킨다.
             for out_idx, out_car in parking:
+                # abs로 양수로 바꾼다
                 if out_car == abs(car):
                     parking.remove((out_idx,out_car))
-                    heapq.heappush(parking_remain,out_idx)
+                    # 출차를 했으니 현재 주차공간을 다시 남아있는 주차 힙에 넣는다
+                    heapq.heappush(parking_remain,     out_idx)
+                    # 정산된 금액을 결과값에 더해준다.
                     result+= (ri[out_idx]*wi[out_car-1])
+                    # 집합 탐색 중단
                     break
+            # 기다리는 주차 차량이 있으면
             if waiting_car:
-                parking.add((heapq.heappop(parking_remain),waiting_car.popleft()))
-
+                # 번호가 제일 작은 주차공간에 넣기
+                parking.add((heapq.heappop(parking_remain),   waiting_car.popleft()))
+                
     print(f'#{tc} {result}')
 
     
