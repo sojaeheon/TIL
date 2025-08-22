@@ -1,0 +1,77 @@
+id,movie_id,name,character,order
+1,1022789,Amy Poehler,Joy (voice),0
+2,1022789,Maya Hawke,Anxiety (voice),1
+3,1022789,Kensington Tallman,Riley (voice),2
+4,1022789,Liza Lapira,Disgust (voice),3
+5,1022789,Phyllis Smith,Sadness (voice),4
+6,1022789,Lewis Black,Anger (voice),5
+7,1022789,Tony Hale,Fear (voice),6
+8,1022789,Ayo Edebiri,Envy (voice),7
+9,1022789,Adèle Exarchopoulos,Ennui (voice),8
+10,1022789,Lilimar,Valentina (voice),9
+11,1022789,Grace Lu,Grace (voice),10
+12,653346,Kevin Durand,Proximus Caesar,2
+13,653346,William H. Macy,Trevathan,4
+14,653346,Eka Darville,Sylva,5
+15,653346,Travis Jeffery,Anaya,6
+16,653346,Lydia Peckham,Soona,7
+17,653346,Neil Sandilands,Koro,8
+18,653346,Ras-Samuel Welda'abzgi,Lightning,9
+19,653346,Sara Wiseman,Dar,10
+20,573435,Vanessa Hudgens,Kelly,2
+21,573435,Eric Dane,McGrath,5
+22,573435,Ioan Gruffudd,Lockwood,6
+23,573435,Tasha Smith,Theresa Burnett,9
+24,573435,Tiffany Haddish,Tabitha,10
+25,1001311,Bérénice Bejo,Sophia,0
+26,1001311,Nassim Lyes,Adil,1
+27,1001311,Léa Léviant,Mika,2
+28,1001311,Nagisa Morimoto,Ben,3
+29,1001311,Anaïs Parello,Jade,4
+30,1001311,Iñaki Lartigue,Juan,5
+31,1001311,Anne Marivin,Mayor of Paris,6
+32,1001311,Timi-Joy Marbot,Raphaël,7
+33,1001311,Ricky Tribord,Marine Officer,8
+34,1001311,Aurélia Petit,Angèle,9
+35,1001311,Sandra Parfait,Caro,10
+36,823464,Dan Stevens,Trapper,2
+37,823464,Kaylee Hottle,Jia,3
+38,823464,Alex Ferns,Mikael,4
+39,823464,Fala Chen,Iwi Queen,5
+40,823464,Greg Hatton,Lewis,9
+41,823464,Kevin Copeland,Submarine Commander,10
+42,955555,Ma Dong-seok,Ma Seok-do,0
+43,955555,Lee Ji-hoon,Yang Jong-su,5
+44,955555,Kim Do-gun,Jung Da-wit,6
+45,929590,Kirsten Dunst,Lee,0
+46,929590,Wagner Moura,Joel,1
+47,929590,Cailee Spaeny,Jessie,2
+48,929590,Stephen McKinley Henderson,Sammy,3
+49,929590,Nelson Lee,Tony,4
+50,929590,Nick Offerman,President,5
+51,929590,Jefferson White,Dave,6
+52,929590,Evan Lai,Bohai,7
+53,929590,Vince Pisani,Concierge,8
+54,929590,Justin James Boykin,American Soldier (Middle East),9
+55,929590,Jess Matney,Checkpoint Soldier,10
+56,626412,Kim Tae-ri,Ean,1
+57,150540,Richard Kind,Bing Bong (voice),5
+58,974635,Sanjay Rao,Phil,4
+59,974635,Evan Holtzman,Ray,6
+60,974635,Gralen Bryant Banks,Sargeant Hank,7
+61,974635,Mike Markoff,Craig,8
+62,974635,Enrique Bush,Sleazy Guy,10
+63,614933,Abraham Popoola,Casca Decius,4
+64,614933,Mark Strong,General Jake Boothe,6
+65,614933,Adia Smith-Eriksson,Ranger West,8
+66,614933,Logan Hunt,Ranger Hughes,9
+67,614933,Jared Shimabukuro,Ranger Shindo,10
+68,746036,Hannah Waddingham,Gail Meyer,3
+69,746036,Matuse Paz,Doone,8
+70,746036,Adam Dunn,Nigel,9
+71,746036,Zara Michales,Venti Kushner,10
+72,38700,Will Smith,Mike Lowrey,0
+73,38700,Jacob Scipio,Armando Armas,10
+74,1011985,Lori Tan Chinn,Granny Boar (voice),9
+75,786892,George Shevtsov,The History Man,4
+76,437342,Charles Dance,Father Harris,7
