@@ -4,21 +4,20 @@ sys.stdin = open("sample_input.txt", "r")
 
 def fire_pit(pit_num,num,pizzas_arr):
     que = deque()
-    pizza_count = num
-    while True:
-        if len(que)==3:
-            pop_num = que.popleft()[1] - pit_num + 1
-            pop_num = pop_num//2
-            if pop_num > 0:
-                pizzas_arr.append(pop_num)
-            else:
-                pizza_count -= 1
-        else:
-            if len(que) == 1 and not pizzas_arr:
-                return que.popleft()[0]
-            else:
+    
+    for _ in range(pit_num):
+        que.append(pizzas_arr.popleft())
+    
+    while len(que)>1:
+        idx, cheese = que.popleft()
+        cheese//=2
+        if cheese == 0:
+            if pizzas_arr:
                 que.append(pizzas_arr.popleft())
+        else:
+            que.append((idx,cheese))
 
+    return que[0][0]
 T = int(input())
 
 for tc in range(1,T+1):
